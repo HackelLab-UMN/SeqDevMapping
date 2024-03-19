@@ -18,17 +18,17 @@ After completion of cross validation, ModelEvaluator.inspect_db_and_report_model
 
 This process is then repeated for all possible study combinations. The study combination cross-validation metadata and best-trial performances are reported in a raw csv file. This csv file has each row constitute a single study-combination. For example, if 4 models, 3 features, 1 output metric, and 3 feature scalers are examined for protein Aby, there will be 4 [models] * sum(3choose1 + 3choose2 + 3choose3) [possible combinations of input features] * 1 [output metric] * 3 [feature scalers] = 4 * 7 * 1 * 3 = 84 study combination rows in the output csv.
 
-2)	utilities.py &uarr defines generally useful functions for ModelEvaluator.py and later processing scripts such as sanitization of study names and plotting.
+2)	utilities.py &#8594; defines generally useful functions for ModelEvaluator.py and later processing scripts such as sanitization of study names and plotting.
 
-3)	NonlinVsLin.py &uarr handles various plotting routines to generate figures shown in our manuscript. Uncomment the relevant figure block you wish to generate.
+3)	NonlinVsLin.py &#8594; handles various plotting routines to generate figures shown in our manuscript. Uncomment the relevant figure block you wish to generate.
 
-4)	raw_data.py &uarr defines input dataset loading regime and features to load into the model.
+4)	raw_data.py &#8594; defines input dataset loading regime and features to load into the model.
 
-5)	architectures.py &uarr handles definition of all inputs needed to initialize a ModelEvaluator object. This includes raw input data for a given protein of interest (e.g., Developability_scores_aby.csv), all sklearn models, and all sklearn hyperparameters with respective ranges.
+5)	architectures.py &#8594; handles definition of all inputs needed to initialize a ModelEvaluator object. This includes raw input data for a given protein of interest (e.g., Developability_scores_aby.csv), all sklearn models, and all sklearn hyperparameters with respective ranges.
 
 Folder descriptions:
-1)	./datasets/ &uarr location of saved fibronectin and affibody library scale and gold-standard metric scores. You will need to unzip the datasets before running.
-2)	./studies/ &uarr location of sqlite databases of Oputna studies containing trials for each model examined during cross validation
+1)	./datasets/ &#8594; location of saved fibronectin and affibody library scale and gold-standard metric scores. You will need to unzip the datasets before running.
+2)	./studies/ &#8594; location of sqlite databases of Oputna studies containing trials for each model examined during cross validation
 
 
 Quickstart: 
