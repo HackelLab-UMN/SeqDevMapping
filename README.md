@@ -39,4 +39,3 @@ Quickstart:
 5)	Once cross validation is completed for each study combination and the Sqlite .db studies are merged, call evaluator.inspect_db_and_report_models() to create a csv to summarize the best study combination for a given set of inputs on a single output of interest.
 6)	Uncomment and run relevant sections of NonlinVsLin.py to examine and plot model study performances.
 
-![image](https://github.com/HackelLab-UMN/SeqDevMapping/assets/63166138/6b0048b9-118e-497a-bf80-77fac5384d2f)
