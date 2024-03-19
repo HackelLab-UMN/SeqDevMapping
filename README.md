@@ -1,4 +1,6 @@
-Sequence-developability mapping of affibody and fibronectin paratopes via library-scale variant characterization
+Sequence-developability mapping of affibody and fibronectin paratopes via library-scale variant characterization, Authors: Gregory Nielsen and Zachary Schmitz
+
+Contact information: niels786@umn.edu
 
 Hackel Lab, University of Minnesota
 
